@@ -20,8 +20,8 @@ import {
 
 
 
-<network>.rpcUrls.default.http = [ 'https://base-goerli.g.alchemy.com/v2/dQowHy06IvvE954gG75A9UpPkjhXwp3a' ]
-<network>.rpcUrls.default.webSocket = [ 'wss://base-goerli.g.alchemy.com/v2/dQowHy06IvvE954gG75A9UpPkjhXwp3a' ]
+baseGoerli.rpcUrls.default.http = [ 'https://base-goerli.g.alchemy.com/v2/dQowHy06IvvE954gG75A9UpPkjhXwp3a' ]
+baseGoerli.rpcUrls.default.webSocket = [ 'wss://base-goerli.g.alchemy.com/v2/dQowHy06IvvE954gG75A9UpPkjhXwp3a' ]
 
 /*
  * See https://mud.dev/tutorials/minimal/deploy#run-the-user-interface

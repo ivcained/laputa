@@ -18,7 +18,7 @@ RUN pnpm install --frozen-lockfile
 # RUN foundryup
 ENV SKIP_FOUNDRY=true
 ENV VITE_CHAIN_ID=84531
-RUN pnpm mud deploy --profile=baseGoerli
+RUN pnpm run mud deploy --profile=baseGoerli
 RUN pnpm run build
 
 

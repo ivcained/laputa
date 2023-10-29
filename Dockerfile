@@ -15,6 +15,8 @@ RUN npm install -g pnpm@8
 COPY . .
 RUN pnpm install --frozen-lockfile
 # RUN ls -ls
+# Install dotenv
+RUN pnpm install dotenv --save
 # RUN foundryup
 ENV SKIP_FOUNDRY=false
 ENV VITE_CHAIN_ID=84531

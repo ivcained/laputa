@@ -42,7 +42,7 @@ function LoadingScreen() {
         <div className="synthwave-lines" />
       </div>
       <div className={cn("game-title fade-in", !loading && "fade-out")}>
-        <div className=" font-anton tracking-wide">LAPUTA</div>
+        <div className=" font-anton tracking-wide">LAPU</div>
         <div
           className="loading-bar mx-auto mt-0.5 block h-2.5 bg-white"
           style={{ width: `${progress}%` }}
